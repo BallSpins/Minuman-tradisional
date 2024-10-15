@@ -21,6 +21,7 @@
     position: sticky;
     top: 0;
     transition: height 1s ease-in-out;
+    z-index: 1;
 }
 
 .navigation .desktop {
@@ -118,12 +119,11 @@
 }
 
 #produk {
+    background-color: #fffdd0;
     padding: 4rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    justify-items: flex-end;
 }
 
 #produk h3 {
@@ -139,6 +139,7 @@
 }
 
 .card {
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,6 +170,18 @@
 
 .card:hover h4 a {
     color: blue;
+}
+
+#artikel {
+    background-color: #4C7371;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#artikel h3 {
+    margin-bottom: 3rem;
 }
 
 /* Article */
