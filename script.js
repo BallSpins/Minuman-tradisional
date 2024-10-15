@@ -7,10 +7,10 @@ menuBtn.addEventListener('click', () => {
     console.log(nav.classList.length)
 
     if(nav.classList.length === 2) {
-        mobile.classList.toggle('set')
-    } else {
         setTimeout(() => {
             mobile.classList.toggle('set')
-        }, 1000)
+        }, 1000);
+    } else {
+        mobile.classList.toggle('set')
     }
 })
