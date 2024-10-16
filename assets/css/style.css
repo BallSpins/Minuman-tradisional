@@ -7,9 +7,11 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 body {
     background-color: #F9F6EE;
 }
+
 /* Navigation */
 .navigation {
     padding: 2rem 2rem 4rem 2rem;
@@ -25,6 +27,26 @@ body {
     top: 0;
     transition: height 1.5s ease-in-out;
     z-index: 1;
+}
+
+.navigation .desktop h2 {
+    border-right: .15rem solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s, cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
 }
 
 .navigation .desktop {
