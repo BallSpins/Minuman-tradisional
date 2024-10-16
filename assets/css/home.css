@@ -13,9 +13,6 @@ article h3, main h3 {
 
 }
 
-#pengertian h3 {
-}
-
 #pengertian p {
     font-size: 1.5rem;
 }
@@ -27,10 +24,6 @@ article h3, main h3 {
     flex-direction: column;
     align-items: center;
 }
-
-/* #produk h3 {
-    margin-bottom: 3rem;
-} */
 
 .wrapper {
     display: flex;
@@ -85,10 +78,6 @@ article h3, main h3 {
     flex-direction: column;
     align-items: center;
 }
-
-/* #artikel h3 {
-    margin-bottom: 3rem;
-} */
 
 @media (max-width: 1125px) {
     #pengertian {
