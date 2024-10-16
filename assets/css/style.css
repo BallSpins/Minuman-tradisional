@@ -137,11 +137,13 @@ body {
 }
 
 footer {
-    /* padding: 10rem 0; */
-    display: flex;
-    justify-content: center;
+    text-align: center;
     background-color: #153332;
     color: white;
+}
+
+footer p {
+    text-align: center;
 }
 
 @media (max-width: 1124px) {
