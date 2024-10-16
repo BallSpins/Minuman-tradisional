@@ -84,6 +84,10 @@ article h3, main h3 {
         padding: 8rem 2rem;
     }
 
+    #pengertian p {
+        font-size: 1rem;
+    }
+
     #produk {
         padding: 5rem 0;
     }
