@@ -82,6 +82,37 @@ article h3, main h3 {
     align-items: center;
 }
 
+.profile {
+    background-color: #97B0AF;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.profile h3 {
+    color: white;
+}
+
+.hero {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+}
+
+.hero-wrap h4 a {
+    text-decoration: none;
+    color: white;
+    transition: color .4s ease;
+}
+
+.hero-wrap h4 a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.hero-wrap h4 i {
+    margin-right: .25rem;
+}
+
 @media (max-width: 1125px) {
     #pengertian {
         padding: 8rem 2rem;

@@ -112,4 +112,7 @@ p:not(footer p) {
     .about {
         padding: 10rem 2rem;
     }
+    .recipe {
+        padding: 4rem 3rem;
+    }
 }
