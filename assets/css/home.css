@@ -102,12 +102,12 @@ article h3, main h3 {
 .hero-wrap h4 a {
     text-decoration: none;
     color: white;
-    transition: color .4s ease;
+    transition: color .75s ease-in-out;
 }
 
 .hero-wrap h4 a:hover {
     text-decoration: none;
-    color: blue;
+    color: #153332;
 }
 
 .hero-wrap h4 i {
