@@ -3,6 +3,14 @@
     background-color: #4C7371;
 }
 
+#jamu .about {
+    background-color: #3E2723;
+}
+
+#talua .about {
+    background-color: #D1BBA7;
+}
+
 /* deskripsi */
 .desc {
     color: black;
@@ -114,5 +122,11 @@ p:not(footer p) {
     }
     .recipe {
         padding: 4rem 3rem;
+    }
+}
+
+@media (min-width: 1126px) {
+    .desc {
+        padding: 10rem 2rem;
     }
 }
