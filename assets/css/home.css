@@ -1,10 +1,18 @@
 #pengertian {
+    text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     /* background-color: #97B0AF; */
+    gap: 2rem;
     color: black;
-    padding: 16rem 8rem;
+    padding: 10rem 6rem;
+}
+
+#pengertian img {
+    width: 32rem;
+    border-radius: 1rem;
+    filter: drop-shadow(.5rem 1rem 1rem black);
 }
 
 article h3, main h3 {
@@ -97,6 +105,26 @@ article h3, main h3 {
     height: 10rem;
     border-radius: 100%;
     filter: drop-shadow(.2rem .1rem 1rem black);
+    /* transition: transform 1s ease; */
+    /* animation: spin 10s infinite; */
+}
+
+/* @keyframes spin {
+    50% {
+        transform: rotate(7200deg);
+    }
+} */
+
+.hero-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero-wrap .nama {
+    width: 75%;
+    color: #153332;
 }
 
 .hero-wrap h4 a {
@@ -117,9 +145,14 @@ article h3, main h3 {
 @media (max-width: 1125px) {
     #pengertian {
         padding: 8rem 2rem;
+        flex-direction: column-reverse;
     }
 
-    #pengertian p {
+    #pengertian img {
+        width: 28rem;
+    }
+
+    #pengertian p { 
         line-height: 1.65rem;
         font-size: 1rem;
     }

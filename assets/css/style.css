@@ -34,7 +34,7 @@ body {
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 5s, cursor .4s step-end infinite alternate;
+    animation: typing 5s, cursor .6s .4s step-end infinite;
 }
 
 @keyframes cursor {
@@ -64,6 +64,10 @@ body {
 
 .navigation.toggled {
     height: 20rem;
+}
+
+#home .navigation.toggled {
+    height: 25rem;
 }
 
 .navigation.toggled .mobile.set {
@@ -156,10 +160,10 @@ footer p {
 } 
 
 @media (min-width: 1125px) {
-    .navigation.toggled {
+    .navigation.toggled, #home .navigation.toggled {
         height: 0;
     }
-    .navigation .mobile ul {
+    .navigation .mobile ul, #home .navigation .mobile ul {
         opacity: 0;
         visibility: hidden;
     }
