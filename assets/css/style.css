@@ -34,7 +34,7 @@ body {
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 5s, cursor .6s .4s step-end infinite;
+    animation: typing 3.5s, cursor .6s .4s step-end infinite;
 }
 
 @keyframes cursor {
