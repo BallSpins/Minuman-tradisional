@@ -110,7 +110,7 @@ article h3, main h3 {
 }
 
 .hero:hover {
-    filter: drop-shadow(.25rem .15rem 1.25rem black);
+    filter: drop-shadow(.5rem .25rem 1.5rem black);
 }
 
 /* @keyframes spin {
