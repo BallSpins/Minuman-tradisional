@@ -105,8 +105,12 @@ article h3, main h3 {
     height: 10rem;
     border-radius: 100%;
     filter: drop-shadow(.2rem .1rem 1rem black);
-    /* transition: transform 1s ease; */
+    transition: filter .7s ease;
     /* animation: spin 10s infinite; */
+}
+
+.hero:hover {
+    filter: drop-shadow(.25rem .15rem 1.25rem black);
 }
 
 /* @keyframes spin {
@@ -144,20 +148,27 @@ article h3, main h3 {
 
 @media (max-width: 1125px) {
     #pengertian {
+        gap: 4rem;
         padding: 8rem 2rem;
         flex-direction: column-reverse;
     }
-
-    #pengertian img {
-        width: 28rem;
-    }
-
+    
     #pengertian p { 
         line-height: 1.65rem;
         font-size: 1rem;
     }
-
+    
     #produk {
         padding: 5rem 0;
+    }
+}
+
+@media (max-width:768px) {
+    #pengertian {
+        padding: 4rem 2rem;
+    }
+
+    #pengertian img {
+        width: 20rem;
     }
 }
