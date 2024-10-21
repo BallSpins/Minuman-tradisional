@@ -51,7 +51,7 @@ article h3, main h3 {
     height: 20rem;
     border: .01rem solid black;
     border-radius: 1rem;
-    box-shadow: .6rem .7rem 1.2rem black;
+    box-shadow: .6rem .7rem 1.5rem rgba(0, 0, 0, 0.65);
     gap: 1rem;
     transition: transform .4s ease-in;
 }
